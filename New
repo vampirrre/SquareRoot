@@ -1,0 +1,15 @@
+using System;
+
+namespace SquareRootNew
+{
+    class SquareRootNew
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Please enter a digit/Моля въведете число: ");
+            double square = double.Parse(Console.ReadLine());
+            Console.WriteLine("Корен квадратен от/Square of {0} е/is: {1}", square, Math.Sqrt(square));
+            
+        }
+    }
+}
