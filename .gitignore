@@ -1,0 +1,13 @@
+using System;
+
+namespace SquareRoot
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine ("Корен квадратен от 1234 е:");
+            Console.WriteLine (Math.Sqrt (1234));
+        }
+    }
+}
